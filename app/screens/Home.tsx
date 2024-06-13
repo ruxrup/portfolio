@@ -71,7 +71,7 @@ const home = () => {
         <div>Works</div>
         <a
           className="flex flex-row items-center"
-          href="https://drive.google.com/file/d/1q-H0piRkg1Wo-iX6OHI2rQxTIhVZtNQV/view?usp=sharing"
+          href="https://drive.google.com/file/d/1mrg9gDfp2V8SVTuBJohyyAJ-xFXMUXw8/view?usp=sharing"
         >
           <div>Resume</div> <MdArrowOutward />
         </a>
