@@ -5,7 +5,10 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="bg-grey-950  h-auto px-10 pb-32  flex flex-col rounded-b-3xl text-primary-300">
+    <div
+      id="about"
+      className="bg-grey-950  h-auto px-10 pb-32  flex flex-col rounded-b-3xl text-primary-300"
+    >
       <div className=" mt-16 ml-10 flex flex-col gap-[4rem]">
         <div className=" text-8xl font-extrabold opacity-80">ABOUT ME</div>
         <div className="flex flex-col justify-center items-center last:text-end">

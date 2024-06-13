@@ -4,7 +4,10 @@ import Project from "./Components/Works/Project";
 
 const Works = () => {
   return (
-    <div className="bg-grey-950 py-6 px-10 pt-44  flex flex-col text-primary-300">
+    <div
+      id="works"
+      className="bg-grey-950 py-6 px-10 pt-44  flex flex-col text-primary-300"
+    >
       <div className=" mt-16 ml-10 flex flex-col gap-[10rem]">
         <div className=" text-8xl font-extrabold opacity-80">WORKS</div>
         <Project

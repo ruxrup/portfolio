@@ -3,6 +3,7 @@ import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 import Time from "./Components/Time";
 import { motion } from "framer-motion";
+import { ScrollToHash } from "./Components/ScrollToHash";
 
 const Footer = () => {
   return (
@@ -49,10 +50,30 @@ const Footer = () => {
             <div className="mb-1 font-bold opacity-80">NAVIGATION</div>
             <div className="h-[0.5px] w-full bg-grey-800 opacity-20" />
             <div className="opacity-60 font-medium mt-5 flex flex-col gap-1">
-              <div>Home</div>
-              <div>Services</div>
-              <div>Works</div>
-              <div>About</div>
+              <div
+                onClick={() => ScrollToHash("home")}
+                className=" cursor-pointer"
+              >
+                Home
+              </div>
+              <div
+                onClick={() => ScrollToHash("services")}
+                className=" cursor-pointer"
+              >
+                Services
+              </div>
+              <div
+                onClick={() => ScrollToHash("works")}
+                className=" cursor-pointer"
+              >
+                Works
+              </div>
+              <div
+                onClick={() => ScrollToHash("about")}
+                className=" cursor-pointer"
+              >
+                About
+              </div>
             </div>
           </div>
           <div className="w-3/6">

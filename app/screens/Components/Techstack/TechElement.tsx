@@ -20,7 +20,10 @@ const TechElement = ({
     <motion.div
       className="relative"
       initial={{ marginBottom: "1rem" }}
-      whileInView={{ marginBottom: "25rem" }}
+      whileInView={{
+        marginBottom: "25rem",
+        transition: { delay: 0.5, duration: 2, type: "spring" },
+      }}
       viewport={{ amount: "all" }}
       transition={{ duration: 2, type: "spring" }}
     >
@@ -28,11 +31,11 @@ const TechElement = ({
         <div className="h-[0.5px] w-full bg-primary-300 opacity-20" />
         <div className="text-4xl font-bold opacity-80 mt-5">{tech}</div>
       </div>
-      <div className="flex flex-row gap-64 pt-10 absolute bg-grey-950">
-        <div className="w-[35rem]  text-lg font-medium opacity-60">
+      <div className="flex flex-row gap-64 pt-10 absolute bg-grey-950 w-full">
+        <div className="w-[65rem]  text-lg font-medium opacity-60">
           {description}
         </div>
-        <div className=" flex flex-col gap-8">
+        <div className=" flex flex-col gap-8 w-full">
           <StackElement>{el1}</StackElement>
           <StackElement>{el2}</StackElement>
           <StackElement>{el3}</StackElement>

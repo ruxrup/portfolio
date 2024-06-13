@@ -55,7 +55,10 @@ const home = () => {
   };
 
   return (
-    <div className="text-grey-700 py-6 px-10 h-screen flex flex-col justify-between text-sm">
+    <div
+      id="home"
+      className="text-grey-700 py-6 px-10 h-screen flex flex-col justify-between text-sm"
+    >
       <motion.div
         initial={{ opacity: 0, y: -80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -68,7 +71,6 @@ const home = () => {
         className="  flex flex-row justify-between font-semibold"
       >
         <div>D.S.</div>
-        <div>Works</div>
         <a
           className="flex flex-row items-center"
           href="https://drive.google.com/file/d/1mrg9gDfp2V8SVTuBJohyyAJ-xFXMUXw8/view?usp=sharing"
