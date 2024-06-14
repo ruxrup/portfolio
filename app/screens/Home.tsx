@@ -94,7 +94,7 @@ const home = () => {
         variants={variantsHeading}
         initial="hidden"
         animate="show"
-        className=" text-8xl flex flex-col gap-5 font-extrabold ml-10 drop-shadow-[0_1.2px_1.2px_#404040]"
+        className=" text-8xl flex flex-col gap-5 font-extrabold ml-10 drop-shadow-[0_1.2px_1.2px_#404040] xl:text-7xl"
       >
         <motion.div variants={itemHeading}>
           I <span className="">DEVELOP</span>

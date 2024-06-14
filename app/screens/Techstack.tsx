@@ -9,7 +9,9 @@ const Techstack = () => {
       className="bg-grey-950 py-6 px-10  flex flex-col rounded-t-3xl text-primary-300"
     >
       <div className=" mt-16 ml-10 flex flex-col gap-[2rem]">
-        <div className=" text-8xl font-extrabold opacity-80">SERVICES</div>
+        <div className=" text-8xl font-extrabold opacity-80 xl:text-7xl">
+          SERVICES
+        </div>
         <div className="flex flex-col last:mb-44">
           <TechElement
             tech="Web Development"

@@ -8,8 +8,10 @@ const Works = () => {
       id="works"
       className="bg-grey-950 py-6 px-10 pt-44  flex flex-col text-primary-300"
     >
-      <div className=" mt-16 ml-10 flex flex-col gap-[10rem]">
-        <div className=" text-8xl font-extrabold opacity-80">WORKS</div>
+      <div className=" mt-16 ml-10 flex flex-col gap-[10rem] xl:gap-[3rem]">
+        <div className=" text-8xl font-extrabold opacity-80 xl:pb-[3rem] xl:text-7xl">
+          WORKS
+        </div>
         <Project
           name="ENTERTAINMENT"
           desc="This website is related to the game Valorant, showcasing all 

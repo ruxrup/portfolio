@@ -28,17 +28,21 @@ const Project = ({
       whileInView={{ opacity: 1 }}
       viewport={{ amount: "all" }}
       transition={{ duration: 1, type: "spring" }}
-      className="flex flex-row gap-[10rem] mb-[6rem]"
+      className="flex flex-row gap-[10rem] mb-[6rem] xl:flex-col xl:gap-[2rem]"
     >
-      <div className="flex flex-col w-[40rem] justify-center">
-        <div className=" text-4xl font-bold opacity-80 mb-2">{name}</div>
+      <div className="flex flex-col w-[40rem] justify-center xl:order-2 xl:w-full">
+        <div className=" text-4xl font-bold opacity-80 mb-2 xl:text-3xl">
+          {name}
+        </div>
         <div className="h-[0.5px] w-full bg-primary-300 opacity-20" />
-        <div className=" text-lg font-extralight opacity-80 mt-5">{desc}</div>
+        <div className=" text-lg font-extralight opacity-80 mt-5 xl:text-base">
+          {desc}
+        </div>
         <div className="flex flex-row mt-4 gap-3">
           <TechTag>{tag1}</TechTag>
           <TechTag>{tag2}</TechTag>
         </div>
-        <a className="flex flex-row items-center mt-10" href={link}>
+        <a className="flex flex-row items-center mt-10 xl:mt-5" href={link}>
           <div>Github</div> <MdArrowOutward />
         </a>
       </div>

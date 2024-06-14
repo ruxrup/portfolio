@@ -29,10 +29,12 @@ const TechElement = ({
     >
       <div className="bg-grey-950">
         <div className="h-[0.5px] w-full bg-primary-300 opacity-20" />
-        <div className="text-4xl font-bold opacity-80 mt-5">{tech}</div>
+        <div className="text-4xl font-bold opacity-80 mt-5 xl:text-3xl">
+          {tech}
+        </div>
       </div>
-      <div className="flex flex-row gap-64 pt-10 absolute bg-grey-950 w-full">
-        <div className="w-[65rem]  text-lg font-medium opacity-60">
+      <div className="flex flex-row gap-64 pt-10 absolute bg-grey-950 w-full xl:gap-36">
+        <div className="w-[65rem]  text-lg font-medium opacity-60 xl:text-base">
           {description}
         </div>
         <div className=" flex flex-col gap-8 w-full">
